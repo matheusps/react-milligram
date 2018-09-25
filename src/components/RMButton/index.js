@@ -1,10 +1,10 @@
 import React from 'react';
-import 'milligram/dist/milligram.css';
+import './style.css';
 
 const RMButton = ({ children, isOutline, isClear, onClick }) => {
     return(
         <button 
-            className={`button ${ isOutline ? 'button-outline' : '' } ${ isClear ? 'button-clear' : '' }`}
+            className={`rm-button ${ isOutline ? 'rm-button-outline' : '' } ${ isClear ? 'rm-button-clear' : '' }`}
             onClick={onClick}
         >
             { children }

@@ -1,0 +1,16 @@
+.rm-blockquote {
+    border-left: 0.3rem solid #d1d1d1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem 1.5rem;
+    color: #606c76;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 1.6;
+}
+
+.rm-blockquote *:last-child {
+    margin-bottom: 0;
+}

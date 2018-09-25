@@ -1,1 +1,1 @@
-  React wrapped components form milligram https://github.com/milligram/milligram
+  React components inspired by milligram https://github.com/milligram/milligram
