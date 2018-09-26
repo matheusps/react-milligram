@@ -1,10 +1,10 @@
 import React from 'react';
-import RMParagraph from '../RMParagraph';
+import { Paragraph, Emphasis } from '../RMTypography';
 import './style.css';
 
 const RMBlockquote = ({ children }) => (
     <blockquote className="rm-blockquote">
-        <RMParagraph><em>{ children }</em></RMParagraph>
+        <Paragraph><Emphasis>{ children }</Emphasis></Paragraph>
     </blockquote>
 );
 
